@@ -1,0 +1,112 @@
+
+
+.article-card-container {
+  color: #E5e5e5;
+  max-width: 1240px;
+  margin: 10px auto;
+  border: 2px solid black;
+}
+
+
+.article-card-main {
+  width: 90%;
+  text-align: left;
+}
+
+.article-card-title {
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  margin: 5px auto;
+  color: black;
+  display: block;
+  grid-area: title;
+}
+
+
+.article-card-author {
+  margin: 5px;
+  grid-area: user;
+  color: black;
+  font-size: 70%;
+}
+.article-card-time {
+  margin: 5px;
+  grid-area: time;
+  font-size: 70%;
+}
+.article-card-topic {
+  margin: 5px;
+  grid-area: topic;
+  color: black;
+  font-size: 70%;
+}
+
+.article-card-votes{
+  
+}
+
+i {
+  margin: 5px;
+}
+
+i:hover {
+  color: #FCA311;
+}
+
+a:hover {
+  color: #FCA311;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}

@@ -1,0 +1,12 @@
+.nav {
+  grid-area: nav;
+  background-color: #FCA311;;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px
+}
+
+#hover{
+  color: #e5e5e5;
+}

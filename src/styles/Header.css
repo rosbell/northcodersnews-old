@@ -1,0 +1,12 @@
+.header {
+  grid-area: header;
+ padding: 5px;
+ display: inline-block;
+}
+
+.logo {
+  padding: 5px;
+}
+
+
+
