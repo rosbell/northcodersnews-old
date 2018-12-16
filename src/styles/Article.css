@@ -1,0 +1,50 @@
+.article-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "title" 
+  "article"
+}
+
+.article-container {
+  display: inline-block;
+  align-self: flex-start;
+  grid-template-areas: inherit;
+  margin: 15px 20px;
+  padding: 15px;
+  border: #e5e5e5 solid 2px;
+  background: #e5e5e5;
+  width: 100vh;
+}
+
+.article-header {
+  display: flex;
+}
+
+.article-title {
+  align-self: center;
+}
+
+.article-body {
+  text-align: left;
+  background: #fafafa;
+  border: #FCA311 solid 1px;
+  padding: 15px;
+  margin-bottom: 0px;
+  width: 100vh;
+}
+
+.body-divider {
+  margin: 0 auto;
+  padding: 10px;
+  content: "";
+  width: 60%;
+  display: block;
+  border-bottom: 2px lightgrey dotted;
+}
+
+.comment-text {
+  height: 90%;
+  width: 100vh;
+}

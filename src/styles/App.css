@@ -1,0 +1,54 @@
+.App {
+  display: grid;
+  grid-template-columns: 1.7fr 0.3fr;
+  grid-template-rows: 1fr 0.4fr 1.6fr 1fr;
+  grid-template-areas: "header socials" "nav nav" "main voting" "footer footer";
+height: 100vh;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+background-color: #E5E5E5;
+}
+
+.socials {
+  grid-area: socials;
+  display: flex;
+  align-self: auto;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: #E5E5E5;
+  /* display: inline-flex; */
+}
+
+.nav {
+  grid-area: nav;
+  display: inline-flex;
+  padding: 10px;
+  background-color: #FCA311;
+  align-items: baseline;
+}
+
+.topic-title{
+  font-weight: bold;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #14213D;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #14213D;
+}

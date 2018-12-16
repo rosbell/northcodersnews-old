@@ -1,0 +1,37 @@
+#comment-list {
+    background-color: #e5e5e5;
+    padding-bottom: 20px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment-container {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+  }
+  
+  .comment-details {
+
+    /* padding-top: 4px; */
+    font-size: 70%;
+  }
+  
+  .comment-card {
+    border: 1px;
+    border-color: #FCA311;
+    width: 100vh;
+    
+  }
+
+  .comment-divider {
+  margin: 0 auto;
+  padding: 10px;
+  content: "";
+  width: 60%;
+  display: block;
+  border-bottom: 2px #FCA311;
+  }
