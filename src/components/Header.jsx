@@ -9,7 +9,7 @@ const Header = () => {
     <div>
 
       <div >
-        <Link className="header" to="/"><img src={crown} width="80" alt="News about stuff and things logo" className="logo"></img> <h1 className="title">News about things</h1>
+        <Link className="header" to="/"><img src={crown} width="80" alt="News about stuff and things logo" className="logo"></img> <h1 className="title">News about things and stuff</h1>
         </Link>
       </div>
 

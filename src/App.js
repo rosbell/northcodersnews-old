@@ -6,7 +6,7 @@ import NotFound from "./components/NotFound";
 import Nav from "./components/Nav";
 import Articles from "./components/Articles";
 import Article from "./components/Article"
-import Vote from "./components/Vote"
+//import Vote from "./components/Vote"
 import * as api from "./api";
 
 import 'typeface-montserrat';
