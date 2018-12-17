@@ -24,15 +24,18 @@ class Article extends Component {
 
     if (this.state.article.title) {
       return (
-        <>
-          <span><h2>Like it? Hate it? Vote here</h2></span>
-          <Vote
-            className={"article-card-votes"}
-            votes={votes}
-            _id={_id}
-            type={"articles"}
-            collection={"articles"}
-          />
+        <div>
+
+          <div className="voting">
+            <span><h2>Like it? Hate it? Vote here</h2></span>
+            <Vote
+              className={"article-card-votes"}
+              votes={votes}
+              _id={_id}
+              type={"articles"}
+              collection={"articles"}
+            />
+          </div>
           <main className="article-container">
             <span className="article-header">
 
@@ -48,7 +51,8 @@ class Article extends Component {
               _id={this.props._id}
             />
           </main>
-        </>
+
+        </div>
       );
     }
     else {

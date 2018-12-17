@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import * as api from '../api.jsx';
 
 class Vote extends Component {
@@ -17,7 +16,7 @@ class Vote extends Component {
 
 
     return (
-      <div className="vote-container">
+      <div>
         <button id='up' onClick={this.click}>
           Vote up
 </button>
@@ -42,7 +41,6 @@ class Vote extends Component {
     })
   }
 };
-
 
 
 export default Vote;

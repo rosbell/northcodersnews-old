@@ -14,7 +14,7 @@ class ArticleCard extends Component {
   render() {
     const {
       title,
-      votes,
+      // votes,
       belongs_to,
       created_by,
       created_at,

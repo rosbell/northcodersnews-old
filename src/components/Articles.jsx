@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import * as api from '../api';
 import ArticlesCard from './ArticlesCard';
 import '../styles/Articles.css'
-import Vote from './Vote'
+// import Vote from './Vote'
 
 
 class Articles extends Component {

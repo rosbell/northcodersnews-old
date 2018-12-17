@@ -7,9 +7,9 @@ const CommentDetails = props => {
   const {
     author,
     body,
-    comment_id,
+    // comment_id,
     created_at,
-    votes
+    // votes
   } = props.comment;
 
   return (
